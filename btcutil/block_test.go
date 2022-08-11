@@ -11,10 +11,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/btcsuite/btcd/chaincfg/chainhash"
-	"github.com/btcsuite/btcd/wire"
-	"github.com/btcsuite/btcd/btcutil"
 	"github.com/davecgh/go-spew/spew"
+	"github.com/michelvankessel/btcd/btcutil"
+	"github.com/michelvankessel/btcd/chaincfg/chainhash"
+	"github.com/michelvankessel/btcd/wire"
 )
 
 // TestBlock tests the API for Block.

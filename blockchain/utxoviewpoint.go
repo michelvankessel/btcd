@@ -7,11 +7,11 @@ package blockchain
 import (
 	"fmt"
 
-	"github.com/btcsuite/btcd/btcutil"
-	"github.com/btcsuite/btcd/chaincfg/chainhash"
-	"github.com/btcsuite/btcd/database"
-	"github.com/btcsuite/btcd/txscript"
-	"github.com/btcsuite/btcd/wire"
+	"github.com/michelvankessel/btcd/btcutil"
+	"github.com/michelvankessel/btcd/chaincfg/chainhash"
+	"github.com/michelvankessel/btcd/database"
+	"github.com/michelvankessel/btcd/txscript"
+	"github.com/michelvankessel/btcd/wire"
 )
 
 // txoFlags is a bitmask defining additional information and state for a

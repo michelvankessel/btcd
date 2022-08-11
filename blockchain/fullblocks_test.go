@@ -12,15 +12,15 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/btcsuite/btcd/blockchain"
-	"github.com/btcsuite/btcd/blockchain/fullblocktests"
-	"github.com/btcsuite/btcd/chaincfg"
-	"github.com/btcsuite/btcd/chaincfg/chainhash"
-	"github.com/btcsuite/btcd/database"
-	_ "github.com/btcsuite/btcd/database/ffldb"
-	"github.com/btcsuite/btcd/txscript"
-	"github.com/btcsuite/btcd/wire"
-	"github.com/btcsuite/btcd/btcutil"
+	"github.com/michelvankessel/btcd/blockchain"
+	"github.com/michelvankessel/btcd/blockchain/fullblocktests"
+	"github.com/michelvankessel/btcd/btcutil"
+	"github.com/michelvankessel/btcd/chaincfg"
+	"github.com/michelvankessel/btcd/chaincfg/chainhash"
+	"github.com/michelvankessel/btcd/database"
+	_ "github.com/michelvankessel/btcd/database/ffldb"
+	"github.com/michelvankessel/btcd/txscript"
+	"github.com/michelvankessel/btcd/wire"
 )
 
 const (

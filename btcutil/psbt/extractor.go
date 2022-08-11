@@ -12,8 +12,8 @@ package psbt
 import (
 	"bytes"
 
-	"github.com/btcsuite/btcd/txscript"
-	"github.com/btcsuite/btcd/wire"
+	"github.com/michelvankessel/btcd/txscript"
+	"github.com/michelvankessel/btcd/wire"
 )
 
 // Extract takes a finalized psbt.Packet and outputs a finalized transaction

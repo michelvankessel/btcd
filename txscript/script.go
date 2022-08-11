@@ -11,7 +11,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/btcsuite/btcd/wire"
+	"github.com/michelvankessel/btcd/wire"
 )
 
 // Bip16Activation is the timestamp where BIP0016 is valid to use in the

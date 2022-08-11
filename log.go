@@ -10,20 +10,20 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/btcsuite/btcd/addrmgr"
-	"github.com/btcsuite/btcd/blockchain"
-	"github.com/btcsuite/btcd/blockchain/indexers"
-	"github.com/btcsuite/btcd/connmgr"
-	"github.com/btcsuite/btcd/database"
-	"github.com/btcsuite/btcd/mempool"
-	"github.com/btcsuite/btcd/mining"
-	"github.com/btcsuite/btcd/mining/cpuminer"
-	"github.com/btcsuite/btcd/netsync"
-	"github.com/btcsuite/btcd/peer"
-	"github.com/btcsuite/btcd/txscript"
+	"github.com/michelvankessel/btcd/addrmgr"
+	"github.com/michelvankessel/btcd/blockchain"
+	"github.com/michelvankessel/btcd/blockchain/indexers"
+	"github.com/michelvankessel/btcd/connmgr"
+	"github.com/michelvankessel/btcd/database"
+	"github.com/michelvankessel/btcd/mempool"
+	"github.com/michelvankessel/btcd/mining"
+	"github.com/michelvankessel/btcd/mining/cpuminer"
+	"github.com/michelvankessel/btcd/netsync"
+	"github.com/michelvankessel/btcd/peer"
+	"github.com/michelvankessel/btcd/txscript"
 
-	"github.com/btcsuite/btclog"
 	"github.com/jrick/logrotate/rotator"
+	"github.com/michelvankessel/btclog"
 )
 
 // logWriter implements an io.Writer that outputs to both standard output and

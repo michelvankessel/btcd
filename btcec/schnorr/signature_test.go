@@ -11,9 +11,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/btcsuite/btcd/btcec/v2"
 	secp_ecdsa "github.com/decred/dcrd/dcrec/secp256k1/v4"
 	ecdsa_schnorr "github.com/decred/dcrd/dcrec/secp256k1/v4/schnorr"
+	"github.com/michelvankessel/btcd/btcec/v2"
 )
 
 type bip340Test struct {

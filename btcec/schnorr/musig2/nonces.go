@@ -8,9 +8,9 @@ import (
 	"encoding/binary"
 	"io"
 
-	"github.com/btcsuite/btcd/btcec/v2"
-	"github.com/btcsuite/btcd/btcec/v2/schnorr"
-	"github.com/btcsuite/btcd/chaincfg/chainhash"
+	"github.com/michelvankessel/btcd/btcec/v2"
+	"github.com/michelvankessel/btcd/btcec/v2/schnorr"
+	"github.com/michelvankessel/btcd/chaincfg/chainhash"
 )
 
 const (
@@ -211,8 +211,8 @@ func writeBytesPrefix(w io.Writer, b []byte, lenWriter lengthWriter) error {
 // genNonceAuxBytes writes out the full byte string used to derive a secret
 // nonce based on some initial randomness as well as the series of optional
 // fields. The byte string used for derivation is:
-//  * tagged_hash("MuSig/nonce", rand || len(aggpk) || aggpk || len(m)
-//                              || m || len(in) || in || i).
+//   - tagged_hash("MuSig/nonce", rand || len(aggpk) || aggpk || len(m)
+//     || m || len(in) || in || i).
 //
 // where i is the ith secret nonce being generated.
 func genNonceAuxBytes(rand []byte, i int,
